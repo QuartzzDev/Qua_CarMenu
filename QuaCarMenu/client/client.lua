@@ -4,7 +4,7 @@ TriggerEvent('esx:getSharedObject', function(obj)
     ESX = obj
 end)
 
-RegisterCommand('menugoster', function(source, args, rawCommand)
+RegisterCommand('menugoster', function(source, args, rawCommand) -- menugoster Yerine Yazdığınız Komut ile Script Çalışacaktır .
     if ESX ~= nil then
         local elements = {}
 
